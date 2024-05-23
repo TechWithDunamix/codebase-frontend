@@ -52,7 +52,7 @@ const Home = ()=>{
 
             </div>
         </div>
-        {data.all_blogs ? <Blogs blogs = {data.all_blogs}/> : <p>Loading blogs</p>}
+       <Blogs blogs = {data.all_blogs}/>
     </div>
     )
 }
