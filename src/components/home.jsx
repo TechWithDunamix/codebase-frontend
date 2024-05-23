@@ -16,7 +16,31 @@ const Home = ()=>{
             fontWeight : "bolder"
         }
     };
+    const [blogs,setBlogs] = useState(null)
+
     const data = useContext(context)
+    useEffect(()=>{
+    const options = {method:"GET",mode : "cors",headers : {"Content-Type" : "application/json"} }
+
+    fetch('https://codebase-fawn.vercel.app/api/v1/blogs/',options)
+
+    .then(res => {
+      console.log(res)
+      if (res.ok){
+        return res.json();
+      }else{
+        setBlogs(null)
+        console.log("error")
+      }
+    })
+    .then(data =>{
+        console.log(data)
+        setBlogs(data)})
+
+    .catch(error =>{
+      console.log(error)
+    })
+    },[])
   return (
     <div class="">
         <MyNavbar />
@@ -52,7 +76,7 @@ const Home = ()=>{
 
             </div>
         </div>
-       <Blogs blogs = {data.all_blogs}/>
+       <Blogs blogs = {blogs}/>
     </div>
     )
 }
