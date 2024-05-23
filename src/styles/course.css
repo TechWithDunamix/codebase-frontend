@@ -1,0 +1,167 @@
+#course-heading{
+	text-align: center;
+	color: darkgreen;
+	font-size: larger;
+	font-weight: bolder;
+
+}
+#course-detail{
+	text-align: center;
+	color: lightseagreen;
+}
+@media(min-width:767px){
+	.course-container{
+	/*		background-color: blue;*/
+		width: 80% !important;
+		padding: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+		justify-content: center;
+		display: flex;
+	}
+	.course-card{
+	border:1px solid lightgreen;
+	border-radius: 10px;
+	padding: 20px;
+	margin-right: 60px;
+	}
+	.course-card h1{
+	font-size: 1.1rem;
+	font-weight: bolder; 
+	margin-top: 5px;
+	}
+	.course-container img{
+	border-radius: 10px;
+	}
+
+	.course-card p{
+	font-size: smaller;
+	color: gray;
+	font-weight: lighter;
+	}
+	.course-card a{
+	color: green;
+	margin-left: auto;
+	text-align: center;
+	}
+}
+
+@media(max-width:767px){
+	.course-container{
+	/*		background-color: blue;*/
+		width: 80% !important;
+		padding: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+
+	}
+	.course-card{
+	border:1px solid lightgreen;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+/*	width: 80%;*/
+
+	}
+	.course-card h1{
+	font-size: 1.1rem;
+	font-weight: bolder;
+	margin-top: 5px;
+	}
+	.course-container img{
+	border-radius: 10px;
+	}
+
+	.course-card p{
+	font-size: smaller;
+	color: gray;
+	font-weight: lighter;
+	}
+	.course-card a{
+	color: green;
+	margin-left: auto;
+	text-align: center;
+	}
+}
+
+.topic-heading{
+	margin-left: 10px;
+	color:gray;
+	font-size: 2.5rem;
+	text-align: center;
+
+}
+.topic-descriptions{
+	margin-left: 10px;
+	color: green;
+	text-align: center;
+}
+.topic-container{
+/*	margin-left: 10px;*/
+	color: black !important;
+	text-align: center;
+	width: 90%;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+.topics-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+@media(min-width:767px){
+	.topics{
+	color: black !important;
+/*	font-family: fantasy;*/
+/*	background-color: lightgreen !important;*/
+	font-size: 1.5rem;
+	font-weight: lighter;
+	cursor: pointer;
+	padding:10px;
+	background-color: #78cf7ea3;
+	margin-top: 20px;
+	border-radius: 20px;
+/*	width: 70%;*/
+	padding-left: 20px;
+	text-align: center;
+
+
+}
+}
+
+@media(max-width:767px){
+	.topics{
+	color: black !important;
+/*	font-family: fantasy;*/
+/*	background-color: lightgreen !important;*/
+	font-size: 1rem;
+	font-weight: lighter;
+	cursor: pointer;
+	padding:8px;
+	background-color: #78cf7ea3;
+	margin-top: 20px;
+	border-radius: 20px;
+	width: 100%;
+	padding-left: 20px;
+	text-align: center;
+
+
+}
+}
+.topic-body{
+	margin-left: 20px;
+}
+.topic-return{
+	text-decoration: none;
+	cursor: pointer;
+	color: green;
+	margin-left: 10px;
+}

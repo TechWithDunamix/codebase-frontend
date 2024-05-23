@@ -1,0 +1,36 @@
+.body{
+/*  margin-left: 200px !important;*/
+padding: 20px;
+}
+.colab-div{
+  background-color: #303730 !important;
+  color: white;
+/*  margin-right: 100px;*/
+  
+}
+@media(max-width:767px){
+  .colab-div{
+/*    margin-right: 20px;*/
+    margin-left: 10px;
+  }
+  .creativity-div{
+  background-color: #015f01c9;
+  color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+}
+.colab-div #heading{
+  font-family: Helvetica;
+  font-size: 1.3rem;
+}
+
+.creativity-div{
+  background-color: #015f01c9;
+  color: white;
+  margin-left: 10px;
+}
+
+.creativity-div #heading{
+  font-size: 1.33rem;
+}

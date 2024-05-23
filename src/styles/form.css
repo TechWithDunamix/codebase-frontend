@@ -1,0 +1,53 @@
+.div-center{
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: honeydew;
+}
+.form-container{
+	height: 500px;
+/*	background-color: lightgreen;*/
+	display: block;
+	padding-right: 10px;
+	padding-left: 10px;
+	max-width: 320px;
+}
+
+.submit-btn{
+	color: darkgreen;
+	background-color: lightgreen;
+}
+.form-control{
+	margin-bottom: 20px;
+	width: 300px;
+	border: 1px solid greenyellow;
+	box-shadow: darkgreen;
+}
+
+.loading{
+	width: 20px;
+	height: 20px;
+	border: 3px solid lightgreen;
+	border-top: 3px solid white;
+	border-radius: 50px;
+	animation-name: spining;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	margin:0 auto;
+	padding: 10px;
+}
+@keyframes spining{
+	to{
+		transform: rotate(0deg);
+
+	}
+	from {
+		transform: rotate(360deg);
+	}
+
+}
+.home-btn{
+	text-decoration: none;
+	
+}

@@ -1,0 +1,120 @@
+.blogs{
+    margin-top: 10px;
+    overflow-x : hidden;
+    margin-bottom:20px;
+    background-color: ghostwhite;
+    width: 100%;
+    padding: 20px;
+   /* padding-left: 300px;
+    padding-right: 300px;*/
+}
+@media(min-width:767px){
+    .blogs{
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+}
+.blogs-header{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4em;
+    color: rgb(0, 0, 0) !important;
+    margin-top:10px;
+}
+.blogs-heading{
+    text-align : center;
+    font-size : 1.2rem;
+    color: rgb(36, 35, 35) !important;
+    font-weight : lighter;
+    margin-bottom: 50px;
+
+
+}
+
+.blog{
+    color: rgb(7, 0, 0) !important;
+
+}
+.blog .category-label{
+    padding: 4px;
+    background-color: lightgreen;
+    color: green;
+    width: auto;
+    border-radius: 3.40px;
+/*    font-weight: bolder;*/
+    margin-bottom: 50px;
+
+}
+.blog h1{
+    font-family: Helvetica;
+    color : rgb(0, 0, 0) !important;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+.blog #blog-detail-btn{
+    display : inline-block;
+    color : green;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.blog #time{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right :10px;
+    color :rgb(41, 40, 40)
+
+
+}
+.blog #blog-body{
+    color :rgb(41, 40, 40);
+    font-size: 1.05rem;
+    font-weight: lighter;
+}
+.blog-container{
+/*    display: flex;*/
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    width: 100vw;
+/*    text-align: center;*/
+}
+.blog-header{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
+.blog-category{
+    
+    font-size: 0.9rem;
+   
+    padding: 1px;
+    color: lightgreen;
+    background-color: green;
+    text-align: center;
+
+}
+.blog-date{
+/*    display: inline-block;*/
+}
+.blog-readtime{
+    text-align: right;
+    color: gray;
+}
+.blog-body{
+width: 95%;
+/*background-color: green;*/
+/*text-align: center;*/
+margin-right: auto;
+margin-left: auto;
+}
+@media(min-width:767px){
+    .blog-readtime{
+        margin-right: 120px;
+    }
+}
+

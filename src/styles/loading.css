@@ -1,0 +1,20 @@
+.loading-container{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+}
+.loading-container h1{
+	font-size: 2rem;
+	color: lightgreen;
+	animation-name: loading;
+	animation-duration: 2s;
+	animation-iteration-count: initial;
+
+}
+@keyframes loading{
+	to{
+		transform: scale(1.0);
+	}
+}
