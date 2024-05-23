@@ -7,6 +7,7 @@ import '../styles/home.css'
 import '../styles/bootstrap.css'
 import {useContext} from 'react'
 import {context} from '../App.js'
+import {useState,useEffect} from 'react'
 const Home = ()=>{
     const homeStyles = {
         blogHeader:{
@@ -76,7 +77,7 @@ const Home = ()=>{
 
             </div>
         </div>
-       <Blogs blogs = {blogs}/>
+       {blogs ? <Blogs blogs = {blogs.slice(0,10)} /> : <p>Loading .... </p>}
     </div>
     )
 }
